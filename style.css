@@ -42,6 +42,7 @@ body {
   width: 60px;
   height: 60px;
   cursor: pointer;
+  outline: none;
 }
 .search button img {
   width: 25px;
@@ -79,4 +80,13 @@ body {
 }
 .col div {
   font-size: 20px;
+}
+.weather {
+  display: none;
+}
+.error {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 32px;
+  display: none;
 }
